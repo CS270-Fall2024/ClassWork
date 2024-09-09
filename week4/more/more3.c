@@ -93,6 +93,7 @@ void doMore(FILE *fp, int pl)
  * q means no, space means yes, CR means one line
  * 
  * @return int numbe of lines to advance
+ * @aknolegment https://stackoverflow.com/questions/1798511/how-to-avoid-pressing-enter-with-getchar-for-reading-a-single-character-only
  */
 int seeMore(FILE *cmdp, int pl)
 {
